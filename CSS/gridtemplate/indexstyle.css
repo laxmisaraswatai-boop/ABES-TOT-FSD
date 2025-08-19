@@ -31,7 +31,7 @@
     background-color: blue;
     .i1 {
         height: 50px;
-        width: 40px;
+        width: 50px;
     }
 }
 .box21 {
@@ -43,6 +43,10 @@
     align-items:  baseline;
     justify-content: flex-end;
     flex-direction: column; */
+    .i1 {
+        height: 50px;
+        width: 50px;
+    }
 
 }
     .box22 {
@@ -50,18 +54,31 @@
     width: 80px;
     border: 1px solid black; 
     background-color: lightpink;
+    .i1 {
+        margin-left: 5px;
+        height: 50px;
+        width: 50px;
+    }
     }
     .box23 {
     height: 100px;
     width: 80px;
     border: 1px solid black; 
     background-color: red;
+    .i1 {
+        height: 50px;
+        width: 50px;
+    }
     }
     .box24 {
     height: 100px;
     width: 80px;
     border: 1px solid black; 
     background-color: lightblue;
+    .i1 {
+        height: 50px;
+        width: 50px;
+    }
     
 }
 
