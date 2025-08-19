@@ -1,0 +1,43 @@
+.box {
+    display: grid;
+    height: 600px;
+    width: 800px;
+    border: 1px solid red;
+    grid-template-columns: repeat(4, 4fr);
+    grid-template-rows: 200px 400px;    
+    padding: 20px; 
+    background-color: lightgray;
+   
+}
+
+.box1 {
+    height: auto;
+    width: auto;
+    border: 1px solid red;
+    background-color: lightcoral;
+     grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.box2 {
+    height: 200px;
+    width: 150px;
+    border: 1px solid blue; 
+    background-color: lightblue;
+}
+
+.box3 {
+    height: 200px;
+    width: 150px;
+    border: 1px solid green;
+    background-color: lightgreen;
+}
+
+.box4 {
+    height: 200px;
+    width: 150px;
+    border: 1px solid yellow;
+    background-color: lightyellow;
+}
