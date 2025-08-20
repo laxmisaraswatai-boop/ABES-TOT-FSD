@@ -35,26 +35,34 @@
 //     return "hi="+msg;
 // }
 // console.log(greet("welcome"));
-function selectlang(lang="java"){
-    let data;
-    console.log("Selected language="+lang);
-    if(lang=="java"){
-        function javacompiler(){
-            console.log("javacompiler")
-        }
-        data = javacompiler();
-        console.log("Compiler output="+data);
-    }
-}
-// else if(lang=="c"){
-//       function ccompiler(){
-// //          console.log("ccompiler")
-// //         }
-// //         data = ccompiler();
-// //     }
-// //     else{
-// //         function pythoncompiler(){
-// //             console.log("pythoncompiler")
-// //         }
-// //     data = pythoncompiler();
-// // }
+// function selectlang(lang) {
+//     let data;
+//     console.log("Selected language = " + lang);
+
+//     if (lang === "java") {
+//         function javacompiler() {
+//             console.log("javacompiler");
+//             return "Java Compiler executed";
+//         }
+//         data = javacompiler();
+//         console.log("Compiler output = " + data);
+
+//     } else if (lang === "c") {
+//         function ccompiler() {
+//             console.log("ccompiler");
+//             return "C Compiler executed";
+//         }
+//         data = ccompiler();
+//         console.log("Compiler output = " + data);
+
+//     } else {
+//         function pythoncompiler() {
+//             console.log("pythoncompiler");
+//             return "Python Compiler executed";
+//         }
+//         data = pythoncompiler();
+//         console.log("Compiler output = " + data);
+//     }
+
+//     return data;
+// }
